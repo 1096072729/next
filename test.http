@@ -1,0 +1,16 @@
+### 得到一个messageslist
+GET http://localhost:3000/messages
+
+### 创建一个messageslist
+POST http://localhost:3000/messages
+Content-Type: application/json
+
+{
+    "message":"kaonengniang"
+}
+
+
+
+###得到一个messages
+GET http://localhost:3000/messages/1
+
